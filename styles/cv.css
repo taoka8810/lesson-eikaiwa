@@ -1,0 +1,40 @@
+.cv {
+  margin: 120px auto;
+  text-align: center;
+  max-width: 860px;
+}
+
+.cv__heading {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.cv__message {
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.cv__button {
+  display: block;
+  padding: 15px;
+  border: #fb0d20 2px solid;
+  border-radius: 39px;
+  background-color: #fb0d20;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.cv__button:hover {
+  background-color: white;
+  color: #fb0d20;
+}
