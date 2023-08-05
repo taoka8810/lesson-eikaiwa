@@ -1,0 +1,100 @@
+.voice {
+  margin-top: 120px;
+}
+
+.voice__heading {
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #333;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.voice__heading::after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 50px);
+  bottom: 0;
+  width: 100px;
+  height: 3px;
+  background-color: #333;
+}
+
+.voice__contents {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 80px auto;
+  max-width: 860px;
+}
+
+.voice__row--reverse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.voice__card {
+  display: flex;
+  gap: 25px;
+  width: 75%;
+}
+
+.voice__row--reverse > .voice__card {
+  flex-direction: row-reverse;
+}
+
+.voice__avatar-icon img {
+  width: 120px;
+  height: 120px;
+  background-color: #c1c1c1;
+  border-radius: 60px;
+}
+
+.voice__profile {
+  text-align: center;
+}
+
+.voice__name,
+.voice__job {
+  color: #333;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.voice__message {
+  position: relative;
+  padding: 20px;
+  height: 76px;
+  border-radius: 15px;
+  background-color: #e3eefa;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.voice__message::after {
+  content: "";
+
+  /* 三角形の位置調整 */
+  position: absolute;
+  left: -20px;
+  bottom: 30px;
+
+  /* 直角二等辺三角形を作る */
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  width: 30px;
+  height: 15px;
+  transform: rotate(-90deg);
+
+  background-color: #e3eefa;
+}
+
+.voice__row--reverse .voice__message::after {
+  transform: rotate(90deg);
+  left: auto;
+  right: -20px;
+}
