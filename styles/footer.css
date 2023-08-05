@@ -1,0 +1,31 @@
+.footer {
+  padding: 60px 0 20px;
+  background-color: #e2e2e2;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.footer__category {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__item {
+  margin: 20px 0;
+}
+
+.footer__item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer__copyright {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 12px;
+}
