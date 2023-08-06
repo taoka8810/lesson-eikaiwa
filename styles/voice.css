@@ -1,5 +1,10 @@
 .voice {
   margin-top: 120px;
+
+  @media screen and (max-width: 900px) {
+    margin-top: 0;
+    padding: 50px 20px;
+  }
 }
 
 .voice__heading {
@@ -11,6 +16,11 @@
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1.5;
+
+  @media screen and (max-width: 900px) {
+    padding-bottom: 10px;
+    font-size: 24px;
+  }
 }
 
 .voice__heading::after {
@@ -29,6 +39,11 @@
   gap: 60px;
   margin: 80px auto 0;
   max-width: 860px;
+
+  @media screen and (max-width: 900px) {
+    margin: 40px auto 0;
+    max-width: 500px;
+  }
 }
 
 .voice__row--reverse {
@@ -40,6 +55,10 @@
   display: flex;
   gap: 25px;
   width: 75%;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
 }
 
 .voice__row--reverse > .voice__card {
@@ -51,6 +70,11 @@
   height: 120px;
   background-color: #c1c1c1;
   border-radius: 60px;
+
+  @media screen and (max-width: 900px) {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 .voice__profile {
@@ -63,6 +87,10 @@
   font-size: 12px;
   letter-spacing: 2px;
   line-height: 1.5;
+
+  @media screen and (max-width: 900px) {
+    font-size: 10px;
+  }
 }
 
 .voice__message {
@@ -74,6 +102,11 @@
   font-size: 16px;
   letter-spacing: 2px;
   line-height: 1.5;
+
+  @media screen and (max-width: 900px) {
+    height: auto;
+    font-size: 12px;
+  }
 }
 
 .voice__message::after {

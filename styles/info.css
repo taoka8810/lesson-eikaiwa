@@ -5,7 +5,8 @@
   animation: fall 10s infinite linear;
 
   @media screen and (max-width: 900px) {
-    padding: 40px 20px;
+    margin-top: 0;
+    padding: 50px 20px;
   }
 }
 
