@@ -6,10 +6,20 @@
   width: 100%;
   height: 100px;
   box-sizing: border-box;
+
+  @media screen and (max-width: 900px) {
+    align-items: center;
+    padding-left: 30px;
+    height: 70px;
+  }
 }
 
 .header__logo > img {
   width: 100px;
+
+  @media screen and (max-width: 900px) {
+    width: 80px;
+  }
 }
 
 .header__hamburger-icon {
@@ -24,10 +34,20 @@
   height: 100px;
   background-color: #ff2a2a;
   cursor: pointer;
+
+  @media screen and (max-width: 900px) {
+    gap: 10px;
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .header__bar {
   width: 50px;
   height: 2px;
   background-color: white;
+
+  @media screen and (max-width: 900px) {
+    width: 35px;
+  }
 }

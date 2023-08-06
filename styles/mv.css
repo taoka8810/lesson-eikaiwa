@@ -9,9 +9,14 @@
   height: calc(100vh - 100px);
 
   background-image: url(../images/mv.png);
-  background-size: contain;
+  background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
+
+  @media screen and (max-width: 900px) {
+    padding: 70px 20px;
+    height: auto;
+  }
 }
 
 .mv__heading {
@@ -19,6 +24,10 @@
   font-weight: bold;
   line-height: 1.5;
   text-shadow: 0 4px 6px #fff;
+
+  @media screen and (max-width: 900px) {
+    font-size: 24px;
+  }
 }
 
 .mv__cv {
@@ -37,6 +46,10 @@
 
   transition: 0.5s;
   transform: scale(1);
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
 }
 
 .mv__cv:hover {
