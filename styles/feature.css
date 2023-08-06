@@ -1,5 +1,10 @@
 .feature {
   margin-top: 170px;
+
+  @media screen and (max-width: 900px) {
+    margin-top: 0;
+    padding: 50px 0px;
+  }
 }
 
 .feature__heading {
@@ -11,6 +16,11 @@
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1.5;
+
+  @media screen and (max-width: 900px) {
+    padding-bottom: 10px;
+    font-size: 24px;
+  }
 }
 
 .feature__heading::after {
@@ -30,6 +40,10 @@
   margin-top: 100px;
   padding: 80px 0;
   background-color: #ff2a2a;
+
+  @media screen and (max-width: 900px) {
+    margin-top: 40px;
+  }
 }
 
 .feature__row--reverse {
@@ -46,6 +60,13 @@
   width: 50%;
   border-radius: 0 20px 20px 0;
   background-color: white;
+
+  @media screen and (max-width: 900px) {
+    gap: 10px;
+    padding: 30px 0;
+    width: 95%;
+    max-width: 500px;
+  }
 }
 
 .feature__row--reverse .feature__card {
@@ -55,6 +76,10 @@
 .feature__icon > img {
   height: 60px;
   object-fit: contain;
+
+  @media screen and (max-width: 900px) {
+    height: 40px;
+  }
 }
 
 .feature__title {
@@ -63,6 +88,10 @@
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 1.5;
+
+  @media screen and (max-width: 900px) {
+    font-size: 20px;
+  }
 }
 
 .feature__description {
@@ -70,4 +99,8 @@
   font-size: 18px;
   letter-spacing: 2px;
   line-height: 1.5;
+
+  @media screen and (max-width: 900px) {
+    font-size: 14px;
+  }
 }
